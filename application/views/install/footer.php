@@ -1,4 +1,4 @@
 <footer class="main"
 	style="text-align: center;">
-	All Rights Reserved
+	Need help?  <a href="http://support.creativeitem.com" target="_blank" style="text-decoration:underline;">Contact support</a>
 </footer>

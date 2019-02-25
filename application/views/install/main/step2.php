@@ -26,7 +26,7 @@
               <div class="form-group">
         				<label class="col-sm-3 control-label">Purchase Code</label>
         				<div class="col-sm-7">
-        					<input type="text" class="form-control" name="purchase_code" placeholder="Enter anything, it`s nulled!"
+        					<input type="text" class="form-control" name="purchase_code" placeholder="Product's Purchase Code"
                     required autofocus autocomplete="off">
         				</div>
         			</div>

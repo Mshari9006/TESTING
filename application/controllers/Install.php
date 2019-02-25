@@ -53,7 +53,7 @@ class Install extends CI_Controller {
     $purchase_code = $this->input->post('purchase_code');
 
     $validation_response = $this->crud_model->curl_request($purchase_code);
-    if ($validation_response != true) {
+    if ($validation_response == true) {
       // keeping the purchase code in users session
       session_start();
       $_SESSION['purchase_code']  = $purchase_code;
